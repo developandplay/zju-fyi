@@ -5,9 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Students@ZJU</title>
 </head>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  header, footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background: #004ea2;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  #content{
+    text-align: center;
+    min-height: calc(100vh - 183px);
+    padding: 20px;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline;
+    margin: 0px 10px;
+  }
+  img {
+    width: 300px;
+  }
+</style>
 <body>
-  <h1>For students by students</h1>
-  <p>We will post content about ZJU!</p>
-  <p>Work in progress</p>
+  <header>
+    Students@Zhejiang University
+    <nav>
+      <ul>
+        <li>Campus</li>
+        <li>Courses</li>
+        <li>Groups</li>
+        <li>Students</li>
+      </ul>
+    </nav>
+  </header>
+  <div id="content">
+    <img src="logo.svg" alt="logo">
+    <h1>For students by students</h1>
+    <p>We will post content about ZJU!</p>
+    <p>Work in progress</p>
+  </div>
+  <footer>
+    Students@Zhejiang University
+    <nav>
+      <ul>
+        <li>Contribute</li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
